@@ -1,4 +1,5 @@
 #include"3d-test.h"
+#include"launcher.cuh"
 
 void pencilComputation::scalingFunction(int array[],int x) {
   
@@ -19,18 +20,7 @@ void pencilComputation::distributeFunction(int array[],int x,int y){
 
 void pencilComputation::pencilComputationFunction(){
 
-    for(int i=0; i<10; i++){
-
-        for(int j=0; j<10; j++) {
-
-            for(int k=0; k<10; k++) {
-
-                pencilVector[k] = inputMatrix[i][j][k];
-            }
-
-            scalingFunction(pencilVector,i);
-            distributeFunction(pencilVector,i,j);
-        }
-    }
+    wrapper w1;
+    w1.launcher();
 }
 
