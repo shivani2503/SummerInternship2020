@@ -1,5 +1,5 @@
 #include<iostream>
-
+#include "launcher.cuh"
 
 class pencilComputation {
     public:

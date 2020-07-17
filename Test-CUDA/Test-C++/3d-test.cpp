@@ -1,5 +1,5 @@
 #include"3d-test.h"
-#include"launcher.cuh"
+
 
 void pencilComputation::scalingFunction(int array[],int x) {
   
