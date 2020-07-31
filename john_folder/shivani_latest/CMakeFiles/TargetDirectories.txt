@@ -1,0 +1,7 @@
+/glade/u/home/shivanis/SummerInternship2020/john_folder/shivani_latest/CMakeFiles/install/strip.dir
+/glade/u/home/shivanis/SummerInternship2020/john_folder/shivani_latest/CMakeFiles/install/local.dir
+/glade/u/home/shivanis/SummerInternship2020/john_folder/shivani_latest/CMakeFiles/install.dir
+/glade/u/home/shivanis/SummerInternship2020/john_folder/shivani_latest/CMakeFiles/list_install_components.dir
+/glade/u/home/shivanis/SummerInternship2020/john_folder/shivani_latest/CMakeFiles/rebuild_cache.dir
+/glade/u/home/shivanis/SummerInternship2020/john_folder/shivani_latest/CMakeFiles/edit_cache.dir
+/glade/u/home/shivanis/SummerInternship2020/john_folder/shivani_latest/CMakeFiles/samurai.dir

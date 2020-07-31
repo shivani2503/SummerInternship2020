@@ -1,0 +1,7 @@
+/glade/u/apps/dav/opt/cmake/3.16.4/bin/cmake -S/glade/u/home/bdobbins/scratch/gpuerror/john2 -B/glade/u/home/bdobbins/scratch/gpuerror/john2 --check-build-system CMakeFiles/Makefile.cmake 0
+Re-run cmake missing file: CMakeFiles/Makefile.cmake
+-- Found OpenACC_C: -acc (found version "1.0") 
+-- Found OpenACC_CXX: -acc (found version "1.0") 
+-- HDF5: Using hdf5 compiler wrapper to determine CXX configuration
+-- Configuring incomplete, errors occurred!
+See also "/glade/u/home/bdobbins/scratch/gpuerror/john2/CMakeFiles/CMakeOutput.log".

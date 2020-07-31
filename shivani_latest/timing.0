@@ -1,0 +1,98 @@
+$Id: gptl.c,v 1.157 2011-03-28 20:55:18 rosinski Exp $
+GPTL was built with THREADED_OMP
+HAVE_MPI was false
+HAVE_PAPI was false
+Underlying timing routine was gettimeofday.
+Per-call utr overhead est: 1.9e-08 sec.
+If overhead stats are printed, roughly half the estimated number is
+embedded in the wallclock stats for each timer.
+Print method was most_frequent.
+If a '%_of' field is present, it is w.r.t. the first timer for thread 0.
+If a 'e6_per_sec' field is present, it is in millions of PAPI counts per sec.
+
+A '*' in column 1 below means the timer had multiple parents, though the
+values printed are for all calls.
+Further down the listing may be more detailed information about multiple
+parents. Look for 'Multiple parent info'
+
+Stats for thread 0:
+                                                     On  Called Recurse   Wallclock          max          min     UTR Overhead 
+  Total                                               -       1    -      63.260578    63.260578    63.260578         0.000000 
+    Main::Init                                        -       1    -       0.439056     0.439056     0.439056         0.000000 
+    Main::Run                                         -       1    -      62.820683    62.820683    62.820683         0.000000 
+      CostFunction3D::initState                       -       1    -       0.520252     0.520252     0.520252         0.000000 
+        CostFunction3D::setupSplines                  -       1    -       0.004454     0.004454     0.004454         0.000000 
+        CostFunction3D::obAdjustments                 -       1    -       0.009966     0.009966     0.009966         0.000000 
+        CostFunction3D::calcHmatrix                   -       1    -       0.109519     0.109519     0.109519         0.000000 
+        CostFunction3D::calcInnovation                -       1    -       0.009147     0.009147     0.009147         0.000000 
+      CostFunction::minimize                          -       1    -      61.055874    61.055874    61.055874         0.000000 
+        CostFunction::TruncNewton                     -       1    -      61.055859    61.055859    61.055859         0.000000 
+*         CostFunction3D::funcValueAndGradient        -       2    -       0.809045     0.406614     0.402431         0.000000 
+          CostFunction3D::Hessian                     -     150    -      60.095257     0.405955     0.396201         0.000006 
+*           CostFunction3D::calcHTranspose            -     153    -       0.043354     0.008516     0.000225         0.000006 
+*           CostFunction3D::updateHCq                 -     152    -      30.359625     0.205053     0.196758         0.000006 
+*             CostFunction3D::SAtransform             -     307    -       0.890476     0.031671     0.002792         0.000012 
+*             CostFunction3D::FFtransform             -     307    -       0.008806     0.001083     0.000023         0.000012 
+*             CostFunction3D::Htransform              -     153    -       0.028185     0.007082     0.000134         0.000006 
+*             CostFunction3D::SCtransform             -     306    -      60.321926     0.318962     0.192868         0.000012 
+          CostFunction::MTLineSearch                  -       1    -       0.405512     0.405512     0.405512         0.000000 
+      CostFunction3D::updateBG                        -       1    -       1.243551     1.243551     1.243551         0.000000 
+    Main::Finalize                                    -       1    -       0.000800     0.000800     0.000800         0.000000 
+
+Overhead sum =  5.86e-05 wallclock seconds
+Total calls  = 1543
+
+Multiple parent info for thread 0:
+Columns are count and name for the listed child
+Rows are each parent, with their common child being the last entry, which is indented.
+Count next to each parent is the number of times it called the child.
+Count next to child is total number of times it was called by the listed parents.
+
+       2 CostFunction3D::initState       
+     152 CostFunction3D::updateHCq       
+       2 CostFunction3D::funcValueAndGradient
+     150 CostFunction3D::Hessian         
+       1 CostFunction3D::updateBG        
+     307   CostFunction3D::SAtransform     
+
+       2 CostFunction3D::initState       
+     152 CostFunction3D::updateHCq       
+       2 CostFunction3D::funcValueAndGradient
+     150 CostFunction3D::Hessian         
+       1 CostFunction3D::updateBG        
+     307   CostFunction3D::FFtransform     
+
+       1 CostFunction3D::calcInnovation  
+     152 CostFunction3D::updateHCq       
+     153   CostFunction3D::Htransform      
+
+       1 CostFunction3D::initState       
+       2 CostFunction3D::funcValueAndGradient
+     150 CostFunction3D::Hessian         
+     153   CostFunction3D::calcHTranspose  
+
+       1 CostFunction3D::initState       
+     152 CostFunction3D::updateHCq       
+       2 CostFunction3D::funcValueAndGradient
+     150 CostFunction3D::Hessian         
+       1 CostFunction3D::updateBG        
+     306   CostFunction3D::SCtransform     
+
+       1 CostFunction::TruncNewton       
+       1 CostFunction::MTLineSearch      
+       2   CostFunction3D::funcValueAndGradient
+
+       2 CostFunction3D::funcValueAndGradient
+     150 CostFunction3D::Hessian         
+     152   CostFunction3D::updateHCq       
+
+
+Thread 0 total memory usage = 39.28 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 6.048 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0.464 KB
+
+Total memory usage all threads = 39.28 KB
+
+Thread mapping:
+threadid_omp[0] = 0

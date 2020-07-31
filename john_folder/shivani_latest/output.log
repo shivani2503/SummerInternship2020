@@ -1,0 +1,4716 @@
+Initializing SAMURAI 3D (from XML)
+iMin	iMax	iIncr	jMin	jMax	jIncr	kMin	kMax	kIncr
+12	28	2	-4	12	2	0	18	1
+
+Can't open Reference State file for reading,  'dunion_mt.snd' using default...
+DEBUG: dataPath = /glade/p/cisl/asap/data/samurai/data_1file/beltrami
+Debug: num files = 3
+DEBUG: centerFilename => 20080914.cen
+------- ParseDate : 20080914 & %Y%m%d ---------- 
+DEBUG: tm.tm_hour = 0
+DEBUG: tm.tm_min  = 0
+DEBUG: tm.tm_sec  = 0
+DEBUG: tt = 1221350400 put_time : Sun Sep 14 00:00:00 2008 GMT gmtime : 0x2ac7e9b24d40
+ParseDate tp<3> = 2008-09-14 00:00:00.000000000   ( In: 20080914 )
+DEBUG: datestr & startDate => 20080914, 00:00:00
+------- ParseDate : 23:51:32 & %H:%M:%S ---------- 
+DEBUG: tm.tm_hour = 23
+DEBUG: tm.tm_min  = 51
+DEBUG: tm.tm_sec  = 32
+DEBUG: tt = -2208989308 put_time : Sun Dec 31 23:51:32 1899 GMT gmtime : 0x2ac7e9b24d40
+ParseDate tp<3> = 1899-12-31 23:51:32.000000000   ( In: 23:51:32 )
+Found matching reference time 23:51:32 at 16.7150002, 148
+Physical (mish) State size = 112000
+Nodal State size = 17787
+Grid dimensions: (9, 9, 19)
+Found zero C level at 4153.56977 based on reference sounding
+Debug: num files = 3
+Found 3 data files to read...
+Processing 20080914.cen of type cen ( code : 1 ) 
+Unknown data type, skipping...
+Processing cfrad.20080914_235139.781_to_20080914_235144.317_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 11759, Radius problem: 0
+Processed 884 observations from 12643 entries (1.16533523%)
+884 total observations. ( 2 of 3 files processed ) 
+Processing samurai_Observations.in of type in ( code : 0 ) 
+Unknown data type, skipping...
+bpd6 - creating ob and setting time to 23
+2523 total observations including pseudo-obs for W and mass continuity
+Finished preprocessing 1 files.
+Number of New Observations: 2523
+runTime: loadMetObs: 0.211425
+DEBUG: Making XYZ costfunction
+stof conversion...
+done with stof conversion...
+kRankMax: 21
+runTime: initObCost3D: 0.005877
+runTime: gridDependentInit: 0.242318
+Outer VarDriver3D Loop Iteration: 1
+Initializing state vector...
+4th Order Recursive Filter coefficients computed for lengthscale 2 Delta X
+4th Order Recursive Filter coefficients computed for lengthscale 2 Delta X
+4th Order Recursive Filter coefficients computed for lengthscale 2 Delta X
+i Spline cutoff set to 2
+j Spline cutoff set to 2
+k Spline cutoff set to 2
+Before linearlization of kGammaL array
+Mass continuity weight set to 1
+Initializing background...
+Before call to SAtransform point #2
+Before call to SAtransform point #2.1
+Variable 0 RMS = 0	 BG Error = 9.05222032e-316 ( Infinite! %)
+Variable 1 RMS = 0	 BG Error = 0 ( Infinite! %)
+Variable 2 RMS = 0	 BG Error = 3.17893141e-316 ( Infinite! %)
+Variable 3 RMS = 0	 BG Error = 6.37344683e-322 ( Infinite! %)
+Variable 4 RMS = 0	 BG Error = 3.24787135e-316 ( Infinite! %)
+Variable 5 RMS = 0	 BG Error = 3.2614546e-316 ( Infinite! %)
+Variable 6 RMS = 0	 BG Error = 4.94065646e-324 ( Infinite! %)
+Build H transform matrix...
+Finished with nested H loop ...
+Non-zero entries in sparse H matrix: 255357 = 0.56902038 %
+size of {H,JH}Build matrix (Mbytes) 7.791024 
+Allocating H 
+Allocating JH 
+Allocating mVal 
+Allocating mTmp 
+Allocating mIncr 
+cindex==8 m: 839 hi: 161152 
+cindex==8 m: 862 hi: 165568 
+cindex==8 m: 878 hi: 168640 
+cindex==8 m: 895 hi: 169944 
+cindex==8 m: 1076 hi: 179433 
+Allocating I2H 
+Memory usage for [H]             (Mbytes): 1.9482193
+Memory usage for [obsVector]     (Mbytes): 0.673713684
+Memory usage for [obsData]       (Mbytes): 0.0192489624
+Memory usage for [HCq]           (Mbytes): 0.0386352539
+Memory usage for [mPtr,mVal,I2H] (Mbytes): 4.03215027
+Memory usage for [IH,JH]         (Mbytes): 1.96747589
+Memory usage for [state]         (Mbytes): 0.135704041
+Before delete(Hlength) 
+Before delete(mIncr) 
+Before delete(mTmp) 
+Initializing innovation vector...
+Innovation RMS : 2.13420429
+Beginning analysis...
+CostFunction3D::initState SCtransform() 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 10, 10 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 10, 10 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 8, 8 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 8, 8 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 1, 1 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 1, 1 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 3, 3 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 3, 3 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 10, 10 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 10, 10 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 4, 4 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 4, 4 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 2, 2 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 2, 2 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 9, 9 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 9, 9 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 0, 0 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 0, 0 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 7, 7 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 7, 7 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 6, 6 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 6, 6 9 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 6, 6 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 6, 6 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 7, 7 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 7, 7 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 6, 6 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 6, 6 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 1, 1 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 1, 1 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 4 5, 5 8 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 4 5, 5 9 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 8, 8 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 8, 8 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 10, 10 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 10, 10 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 5, 5 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 5, 5 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 4, 4 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 4, 4 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 2, 2 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 2, 2 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 6, 6 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 6, 6 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 9, 9 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 9, 9 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 0, 0 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 0, 0 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 9, 9 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 9, 9 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 5, 5 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 5, 5 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 2, 2 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 2, 2 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 10, 10 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 10, 10 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 4, 4 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 4, 4 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 1, 1 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 1, 1 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 3, 3 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 3, 3 1 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 7, 7 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 7, 7 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 0 10, 10 0 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 0 10, 10 1 
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 8, 8 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 8, 8 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 2, 2 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 2, 2 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 4, 4 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 4, 4 7 
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+gridsize: 11 11 21
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 1, 1 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 1, 1 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 7, 7 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 7, 7 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 4, 4 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 4, 4 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 8, 8 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 8, 8 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 8, 8 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 8, 8 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 3, 3 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 3, 3 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 9, 9 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 9, 9 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 0, 0 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 0, 0 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 3, 3 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 3, 3 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 5, 5 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 5, 5 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 0, 0 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 0, 0 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 2, 2 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 2, 2 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 5, 5 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 5, 5 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 3, 3 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 3, 3 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 2 9, 9 4 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 2 9, 9 5 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 0, 0 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 0, 0 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 1, 1 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 1, 1 7 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 1 7, 7 2 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 1 7, 7 3 
+threadIdx,blockDim,blockIdx: 0 0, 2 1, 3 6, 6 6 
+threadIdx,blockDim,blockIdx: 1 0, 2 1, 3 6, 6 7 

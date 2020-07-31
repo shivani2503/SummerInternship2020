@@ -4,15 +4,9 @@
 class pencilComputation {
     public:
 
-    int inputMatrix[10][10][10];
-    int outputMatrix[10][10][10];
-    int pencilVector[10];
-    
-    void collectPencilVector();
- 
-    
+   int inputMatrix[2][2][2];
+   int ouputMatrix[2][2][2];
+   int pencilVector[8];
 
-   
-    
     void launcher();
 };

@@ -1,0 +1,34 @@
+#!/bin/bash
+#PBS -N 2xjobs
+#PBS -A NTDD0004
+#PBS -l walltime=12:00:00 
+#PBS -q regular
+#PBS -l select=1:ncpus=36:mem=109GB
+#PBS -M dennis@ucar.edu
+#PBS -j oe
+#PBS -m abe
+
+
+export SCRIPT=./bin/ncar_samurai_petsc_run.sh
+export COMPILER=intel
+export CONFIG=36th
+export CODE=bnlsv4
+
+
+#./bin/ncar_samurai_run.sh ~/supercell12x.xml >& log.$COMPILER.$CONFIG.supercell12x.new3
+#mv timing.0 timing.$COMPILER.$CONFIG.supercell12x.new3
+#$SCRIPT ~/supercell.xml >& log.$COMPILER.$CONFIG.supercell.full.$CODE
+#mv timing.0 timing.$COMPILER.$CONFIG.supercell.full.$CODE
+#$SCRIPT ~/supercell2x.xml >& log.$COMPILER.$CONFIG.supercell2x.full.$CODE
+#mv timing.0 timing.$COMPILER.$CONFIG.supercell2x.full.$CODE
+
+#./bin/ncar_samurai_run.sh ~/hurricane12x.xml >& log.$COMPILER.$CONFIG.hurricane12x.full.$CODE
+#mv timing.0 timing.$COMPILER.$CONFIG.hurricane12x.full.$CODE
+#$SCRIPT ~/hurricane.xml >& log.$COMPILER.$CONFIG.hurricane.full.$CODE
+#mv timing.0 timing.$COMPILER.$CONFIG.hurricane.full.$CODE
+#$SCRIPT ~/hurricane2x.xml >& log.$COMPILER.$CONFIG.hurricane2x.full.$CODE
+#mv timing.0 timing.$COMPILER.$CONFIG.hurricane2x.full.$CODE
+$SCRIPT ~/hurricane_4panel-modD.xml >& log.$COMPILER.$CONFIG.hurricane_4panel-modD.full.$CODE
+mv timing.0 timing.$COMPILER.$CONFIG.hurricane_4panel-modD.full.$CODE
+
+

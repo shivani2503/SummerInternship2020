@@ -1,0 +1,558 @@
+$Id: gptl.c,v 1.157 2011-03-28 20:55:18 rosinski Exp $
+GPTL was built with THREADED_OMP
+HAVE_MPI was false
+HAVE_PAPI was false
+Underlying timing routine was gettimeofday.
+Per-call utr overhead est: 2.9e-08 sec.
+If overhead stats are printed, roughly half the estimated number is
+embedded in the wallclock stats for each timer.
+Print method was most_frequent.
+If a '%_of' field is present, it is w.r.t. the first timer for thread 0.
+If a 'e6_per_sec' field is present, it is in millions of PAPI counts per sec.
+
+A '*' in column 1 below means the timer had multiple parents, though the
+values printed are for all calls.
+Further down the listing may be more detailed information about multiple
+parents. Look for 'Multiple parent info'
+
+Stats for thread 0:
+                                                     On  Called Recurse   Wallclock          max          min     UTR Overhead 
+  Total                                               -       1    -      38.880642    38.880642    38.880642         0.000000 
+    Main::Init                                        -       1    -      14.560142    14.560142    14.560142         0.000000 
+    Main::Run                                         -       1    -      24.316196    24.316196    24.316196         0.000000 
+      CostFunction3D::initState                       -       1    -       0.311136     0.311136     0.311136         0.000000 
+        CostFunction3D::setupSplines                  -       1    -       0.003881     0.003881     0.003881         0.000000 
+        CostFunction3D::obAdjustments                 -       1    -       0.009003     0.009003     0.009003         0.000000 
+        CostFunction3D::calcHmatrix                   -       1    -       0.114582     0.114582     0.114582         0.000000 
+        CostFunction3D::calcInnovation                -       1    -       0.006275     0.006275     0.006275         0.000000 
+      CostFunction::minimize                          -       1    -      22.712004    22.712004    22.712004         0.000000 
+        CostFunction::TruncNewton                     -       1    -      22.711979    22.711979    22.711979         0.000000 
+*         CostFunction3D::funcValueAndGradient        -       2    -       0.287914     0.144070     0.143844         0.000000 
+          CostFunction3D::Hessian                     -     152    -      22.202509     0.173151     0.142169         0.000009 
+*           CostFunction3D::calcHTranspose            -     155    -       2.434753     0.023488     0.015379         0.000009 
+*           CostFunction3D::updateHCq                 -     154    -      10.270796     0.080338     0.064750         0.000009 
+*             CostFunction3D::SAtransform             -     311    -      13.668428     0.056869     0.042106         0.000018 
+*             CostFunction3D::FFtransform             -     311    -       0.100367     0.000428     0.000219         0.000018 
+*             CostFunction3D::Htransform              -     155    -       0.748317     0.005732     0.004698         0.000009 
+*             CostFunction3D::SCtransform             -     310    -       5.650934     0.021549     0.017404         0.000018 
+          CostFunction::MTLineSearch                  -       1    -       0.146781     0.146781     0.146781         0.000000 
+      CostFunction3D::updateBG                        -       1    -       1.292258     1.292258     1.292258         0.000000 
+    Main::Finalize                                    -       1    -       0.004253     0.004253     0.004253         0.000000 
+
+Overhead sum =  9.07e-05 wallclock seconds
+Total calls  = 1563
+
+Stats for thread 1:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 2:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 3:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 4:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 5:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 6:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 7:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 8:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 9:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 10:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 11:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 12:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 13:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 14:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 15:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 16:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 17:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 18:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 19:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 20:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 21:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 22:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 23:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 24:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 25:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 26:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 27:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 28:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 29:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 30:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 31:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 32:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 33:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 34:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Stats for thread 35:
+   On  Called Recurse   Wallclock          max          min     UTR Overhead 
+
+Overhead sum =         0 wallclock seconds
+Total calls  = 0
+
+Same stats sorted by timer for threaded regions (for timers active on thread 0):
+Thd                                      On  Called Recurse   Wallclock          max          min     UTR Overhead 
+OVERHEAD.000 (wallclock seconds) =  9.07e-05
+OVERHEAD.001 (wallclock seconds) =         0
+OVERHEAD.002 (wallclock seconds) =         0
+OVERHEAD.003 (wallclock seconds) =         0
+OVERHEAD.004 (wallclock seconds) =         0
+OVERHEAD.005 (wallclock seconds) =         0
+OVERHEAD.006 (wallclock seconds) =         0
+OVERHEAD.007 (wallclock seconds) =         0
+OVERHEAD.008 (wallclock seconds) =         0
+OVERHEAD.009 (wallclock seconds) =         0
+OVERHEAD.010 (wallclock seconds) =         0
+OVERHEAD.011 (wallclock seconds) =         0
+OVERHEAD.012 (wallclock seconds) =         0
+OVERHEAD.013 (wallclock seconds) =         0
+OVERHEAD.014 (wallclock seconds) =         0
+OVERHEAD.015 (wallclock seconds) =         0
+OVERHEAD.016 (wallclock seconds) =         0
+OVERHEAD.017 (wallclock seconds) =         0
+OVERHEAD.018 (wallclock seconds) =         0
+OVERHEAD.019 (wallclock seconds) =         0
+OVERHEAD.020 (wallclock seconds) =         0
+OVERHEAD.021 (wallclock seconds) =         0
+OVERHEAD.022 (wallclock seconds) =         0
+OVERHEAD.023 (wallclock seconds) =         0
+OVERHEAD.024 (wallclock seconds) =         0
+OVERHEAD.025 (wallclock seconds) =         0
+OVERHEAD.026 (wallclock seconds) =         0
+OVERHEAD.027 (wallclock seconds) =         0
+OVERHEAD.028 (wallclock seconds) =         0
+OVERHEAD.029 (wallclock seconds) =         0
+OVERHEAD.030 (wallclock seconds) =         0
+OVERHEAD.031 (wallclock seconds) =         0
+OVERHEAD.032 (wallclock seconds) =         0
+OVERHEAD.033 (wallclock seconds) =         0
+OVERHEAD.034 (wallclock seconds) =         0
+OVERHEAD.035 (wallclock seconds) =         0
+OVERHEAD.SUM (wallclock seconds) =  9.07e-05
+
+Multiple parent info for thread 0:
+Columns are count and name for the listed child
+Rows are each parent, with their common child being the last entry, which is indented.
+Count next to each parent is the number of times it called the child.
+Count next to child is total number of times it was called by the listed parents.
+
+       2 CostFunction3D::initState       
+     154 CostFunction3D::updateHCq       
+       2 CostFunction3D::funcValueAndGradient
+     152 CostFunction3D::Hessian         
+       1 CostFunction3D::updateBG        
+     311   CostFunction3D::SAtransform     
+
+       2 CostFunction3D::initState       
+     154 CostFunction3D::updateHCq       
+       2 CostFunction3D::funcValueAndGradient
+     152 CostFunction3D::Hessian         
+       1 CostFunction3D::updateBG        
+     311   CostFunction3D::FFtransform     
+
+       1 CostFunction3D::calcInnovation  
+     154 CostFunction3D::updateHCq       
+     155   CostFunction3D::Htransform      
+
+       1 CostFunction3D::initState       
+       2 CostFunction3D::funcValueAndGradient
+     152 CostFunction3D::Hessian         
+     155   CostFunction3D::calcHTranspose  
+
+       1 CostFunction3D::initState       
+     154 CostFunction3D::updateHCq       
+       2 CostFunction3D::funcValueAndGradient
+     152 CostFunction3D::Hessian         
+       1 CostFunction3D::updateBG        
+     310   CostFunction3D::SCtransform     
+
+       1 CostFunction::TruncNewton       
+       1 CostFunction::MTLineSearch      
+       2   CostFunction3D::funcValueAndGradient
+
+       2 CostFunction3D::funcValueAndGradient
+     152 CostFunction3D::Hessian         
+     154   CostFunction3D::updateHCq       
+
+
+Thread 0 total memory usage = 33.232 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0.464 KB
+
+Thread 1 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 2 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 3 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 4 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 5 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 6 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 7 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 8 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 9 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 10 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 11 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 12 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 13 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 14 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 15 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 16 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 17 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 18 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 19 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 20 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 21 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 22 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 23 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 24 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 25 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 26 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 27 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 28 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 29 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 30 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 31 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 32 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 33 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 34 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Thread 35 total memory usage = 32.768 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 0 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 0 KB
+
+Total memory usage all threads = 1180.11 KB
+
+Thread mapping:
+threadid_omp[0] = 0
+threadid_omp[1] = -1
+threadid_omp[2] = -1
+threadid_omp[3] = -1
+threadid_omp[4] = -1
+threadid_omp[5] = -1
+threadid_omp[6] = -1
+threadid_omp[7] = -1
+threadid_omp[8] = -1
+threadid_omp[9] = -1
+threadid_omp[10] = -1
+threadid_omp[11] = -1
+threadid_omp[12] = -1
+threadid_omp[13] = -1
+threadid_omp[14] = -1
+threadid_omp[15] = -1
+threadid_omp[16] = -1
+threadid_omp[17] = -1
+threadid_omp[18] = -1
+threadid_omp[19] = -1
+threadid_omp[20] = -1
+threadid_omp[21] = -1
+threadid_omp[22] = -1
+threadid_omp[23] = -1
+threadid_omp[24] = -1
+threadid_omp[25] = -1
+threadid_omp[26] = -1
+threadid_omp[27] = -1
+threadid_omp[28] = -1
+threadid_omp[29] = -1
+threadid_omp[30] = -1
+threadid_omp[31] = -1
+threadid_omp[32] = -1
+threadid_omp[33] = -1
+threadid_omp[34] = -1
+threadid_omp[35] = -1

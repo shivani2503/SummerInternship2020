@@ -1,0 +1,871 @@
+Initializing SAMURAI 3D (from XML)
+iMin	iMax	iIncr	jMin	jMax	jIncr	kMin	kMax	kIncr
+12	28	0.5	-4	12	0.5	0	18	0.5
+
+Can't open Reference State file for reading,  'dunion_mt.snd' using default...
+DEBUG: dataPath = /glade/p/cisl/asap/data/samurai/data/beltrami
+Debug: num files = 80
+DEBUG: centerFilename => 20080914.cen
+------- ParseDate : 20080914 & %Y%m%d ---------- 
+DEBUG: tm.tm_hour = 0
+DEBUG: tm.tm_min  = 0
+DEBUG: tm.tm_sec  = 0
+DEBUG: tt = 1221350400 put_time : Sun Sep 14 00:00:00 2008 GMT gmtime : 0x2b3e5f045d40
+ParseDate tp<3> = 2008-09-14 00:00:00.000000000   ( In: 20080914 )
+DEBUG: datestr & startDate => 20080914, 00:00:00
+------- ParseDate : 23:51:32 & %H:%M:%S ---------- 
+DEBUG: tm.tm_hour = 23
+DEBUG: tm.tm_min  = 51
+DEBUG: tm.tm_sec  = 32
+DEBUG: tt = -2208989308 put_time : Sun Dec 31 23:51:32 1899 GMT gmtime : 0x2b3e5f045d40
+ParseDate tp<3> = 1899-12-31 23:51:32.000000000   ( In: 23:51:32 )
+Found matching reference time 23:51:32 at 16.7150002, 148
+Physical (mish) State size = 2459968
+Nodal State size = 334425
+Grid dimensions: (33, 33, 37)
+Found zero C level at 4153.56977 based on reference sounding
+Debug: num files = 80
+Found 80 data files to read...
+Processing 20080914.cen of type cen ( code : 1 ) 
+Unknown data type, skipping...
+Processing cfrad.20080914_234702.239_to_20080914_234706.775_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12609, Radius problem: 0
+No valid observations in file
+0 total observations. ( 2 of 80 files processed ) 
+Processing cfrad.20080914_234704.525_to_20080914_234709.043_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12508, Radius problem: 0
+No valid observations in file
+0 total observations. ( 3 of 80 files processed ) 
+Processing cfrad.20080914_234706.793_to_20080914_234711.311_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12593, Radius problem: 0
+No valid observations in file
+0 total observations. ( 4 of 80 files processed ) 
+Processing cfrad.20080914_234709.061_to_20080914_234713.597_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12575, Radius problem: 0
+No valid observations in file
+0 total observations. ( 5 of 80 files processed ) 
+Processing cfrad.20080914_234711.329_to_20080914_234715.865_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12588, Radius problem: 0
+No valid observations in file
+0 total observations. ( 6 of 80 files processed ) 
+Processing cfrad.20080914_234713.615_to_20080914_234718.151_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12575, Radius problem: 0
+No valid observations in file
+0 total observations. ( 7 of 80 files processed ) 
+Processing cfrad.20080914_234715.883_to_20080914_234720.401_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12539, Radius problem: 0
+No valid observations in file
+0 total observations. ( 8 of 80 files processed ) 
+Processing cfrad.20080914_234718.169_to_20080914_234722.687_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12512, Radius problem: 0
+No valid observations in file
+0 total observations. ( 9 of 80 files processed ) 
+Processing cfrad.20080914_234720.419_to_20080914_234724.955_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12644, Radius problem: 0
+No valid observations in file
+0 total observations. ( 10 of 80 files processed ) 
+Processing cfrad.20080914_234722.705_to_20080914_234727.241_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12552, Radius problem: 0
+No valid observations in file
+0 total observations. ( 11 of 80 files processed ) 
+Processing cfrad.20080914_234724.973_to_20080914_234729.491_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12576, Radius problem: 0
+No valid observations in file
+0 total observations. ( 12 of 80 files processed ) 
+Processing cfrad.20080914_234727.259_to_20080914_234731.795_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12539, Radius problem: 0
+No valid observations in file
+0 total observations. ( 13 of 80 files processed ) 
+Processing cfrad.20080914_234729.509_to_20080914_234734.063_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12699, Radius problem: 0
+No valid observations in file
+0 total observations. ( 14 of 80 files processed ) 
+Processing cfrad.20080914_234731.813_to_20080914_234736.349_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12544, Radius problem: 0
+No valid observations in file
+0 total observations. ( 15 of 80 files processed ) 
+Processing cfrad.20080914_234734.081_to_20080914_234738.599_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12596, Radius problem: 0
+No valid observations in file
+0 total observations. ( 16 of 80 files processed ) 
+Processing cfrad.20080914_234736.367_to_20080914_234740.903_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12548, Radius problem: 0
+No valid observations in file
+0 total observations. ( 17 of 80 files processed ) 
+Processing cfrad.20080914_234738.617_to_20080914_234743.171_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12658, Radius problem: 0
+No valid observations in file
+0 total observations. ( 18 of 80 files processed ) 
+Processing cfrad.20080914_234740.921_to_20080914_234745.457_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12563, Radius problem: 0
+No valid observations in file
+0 total observations. ( 19 of 80 files processed ) 
+Processing cfrad.20080914_234743.189_to_20080914_234747.707_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12596, Radius problem: 0
+No valid observations in file
+0 total observations. ( 20 of 80 files processed ) 
+Processing cfrad.20080914_234745.475_to_20080914_234750.011_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12557, Radius problem: 0
+No valid observations in file
+0 total observations. ( 21 of 80 files processed ) 
+Processing cfrad.20080914_234747.725_to_20080914_234752.279_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12679, Radius problem: 0
+No valid observations in file
+0 total observations. ( 22 of 80 files processed ) 
+Processing cfrad.20080914_234750.029_to_20080914_234754.565_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12564, Radius problem: 0
+No valid observations in file
+0 total observations. ( 23 of 80 files processed ) 
+Processing cfrad.20080914_234752.297_to_20080914_234756.833_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12643, Radius problem: 0
+No valid observations in file
+0 total observations. ( 24 of 80 files processed ) 
+Processing cfrad.20080914_234754.583_to_20080914_234759.119_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12537, Radius problem: 0
+No valid observations in file
+0 total observations. ( 25 of 80 files processed ) 
+Processing cfrad.20080914_234756.851_to_20080914_234801.369_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12576, Radius problem: 0
+No valid observations in file
+0 total observations. ( 26 of 80 files processed ) 
+Processing cfrad.20080914_234759.137_to_20080914_234803.655_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12515, Radius problem: 0
+No valid observations in file
+0 total observations. ( 27 of 80 files processed ) 
+Processing cfrad.20080914_234801.387_to_20080914_234805.923_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12645, Radius problem: 0
+No valid observations in file
+0 total observations. ( 28 of 80 files processed ) 
+Processing cfrad.20080914_234803.673_to_20080914_234808.209_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12547, Radius problem: 0
+No valid observations in file
+0 total observations. ( 29 of 80 files processed ) 
+Processing cfrad.20080914_234805.941_to_20080914_234810.477_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12650, Radius problem: 0
+No valid observations in file
+0 total observations. ( 30 of 80 files processed ) 
+Processing cfrad.20080914_234808.227_to_20080914_234812.763_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12534, Radius problem: 0
+No valid observations in file
+0 total observations. ( 31 of 80 files processed ) 
+Processing cfrad.20080914_234810.495_to_20080914_234815.031_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12660, Radius problem: 0
+No valid observations in file
+0 total observations. ( 32 of 80 files processed ) 
+Processing cfrad.20080914_234812.781_to_20080914_234817.317_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12553, Radius problem: 0
+No valid observations in file
+0 total observations. ( 33 of 80 files processed ) 
+Processing cfrad.20080914_234815.049_to_20080914_234819.585_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12622, Radius problem: 0
+No valid observations in file
+0 total observations. ( 34 of 80 files processed ) 
+Processing cfrad.20080914_234817.335_to_20080914_234821.853_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12500, Radius problem: 0
+No valid observations in file
+0 total observations. ( 35 of 80 files processed ) 
+Processing cfrad.20080914_234819.603_to_20080914_234824.139_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12625, Radius problem: 0
+No valid observations in file
+0 total observations. ( 36 of 80 files processed ) 
+Processing cfrad.20080914_234821.871_to_20080914_234826.407_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12545, Radius problem: 0
+No valid observations in file
+0 total observations. ( 37 of 80 files processed ) 
+Processing cfrad.20080914_234824.157_to_20080914_234828.693_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12629, Radius problem: 0
+No valid observations in file
+0 total observations. ( 38 of 80 files processed ) 
+Processing cfrad.20080914_234826.425_to_20080914_234830.979_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12593, Radius problem: 0
+No valid observations in file
+0 total observations. ( 39 of 80 files processed ) 
+Processing cfrad.20080914_234828.711_to_20080914_234833.247_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12609, Radius problem: 0
+No valid observations in file
+0 total observations. ( 40 of 80 files processed ) 
+Processing cfrad.20080914_234830.997_to_20080914_234835.515_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12527, Radius problem: 0
+No valid observations in file
+0 total observations. ( 41 of 80 files processed ) 
+Processing cfrad.20080914_234833.265_to_20080914_234837.801_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12610, Radius problem: 0
+No valid observations in file
+0 total observations. ( 42 of 80 files processed ) 
+Processing cfrad.20080914_234835.533_to_20080914_234840.087_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12590, Radius problem: 0
+No valid observations in file
+0 total observations. ( 43 of 80 files processed ) 
+Processing cfrad.20080914_234837.819_to_20080914_234842.337_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12592, Radius problem: 0
+No valid observations in file
+0 total observations. ( 44 of 80 files processed ) 
+Processing cfrad.20080914_234840.105_to_20080914_234844.623_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12503, Radius problem: 0
+No valid observations in file
+0 total observations. ( 45 of 80 files processed ) 
+Processing cfrad.20080914_234842.355_to_20080914_234846.891_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12641, Radius problem: 0
+No valid observations in file
+0 total observations. ( 46 of 80 files processed ) 
+Processing cfrad.20080914_234844.641_to_20080914_234849.177_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12539, Radius problem: 0
+No valid observations in file
+0 total observations. ( 47 of 80 files processed ) 
+Processing cfrad.20080914_234846.909_to_20080914_234851.445_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12645, Radius problem: 0
+No valid observations in file
+0 total observations. ( 48 of 80 files processed ) 
+Processing cfrad.20080914_234849.195_to_20080914_234853.731_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12550, Radius problem: 0
+No valid observations in file
+0 total observations. ( 49 of 80 files processed ) 
+Processing cfrad.20080914_234851.463_to_20080914_234855.999_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12639, Radius problem: 0
+No valid observations in file
+0 total observations. ( 50 of 80 files processed ) 
+Processing cfrad.20080914_234853.749_to_20080914_234858.267_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12505, Radius problem: 0
+No valid observations in file
+0 total observations. ( 51 of 80 files processed ) 
+Processing cfrad.20080914_234856.017_to_20080914_234900.553_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12614, Radius problem: 0
+No valid observations in file
+0 total observations. ( 52 of 80 files processed ) 
+Processing cfrad.20080914_234858.285_to_20080914_234902.821_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12567, Radius problem: 0
+No valid observations in file
+0 total observations. ( 53 of 80 files processed ) 
+Processing cfrad.20080914_234900.571_to_20080914_234905.089_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12595, Radius problem: 0
+No valid observations in file
+0 total observations. ( 54 of 80 files processed ) 
+Processing cfrad.20080914_234902.839_to_20080914_234907.375_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12554, Radius problem: 0
+No valid observations in file
+0 total observations. ( 55 of 80 files processed ) 
+Processing cfrad.20080914_234905.107_to_20080914_234909.643_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12640, Radius problem: 0
+No valid observations in file
+0 total observations. ( 56 of 80 files processed ) 
+Processing cfrad.20080914_234907.393_to_20080914_234911.911_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12508, Radius problem: 0
+No valid observations in file
+0 total observations. ( 57 of 80 files processed ) 
+Processing cfrad.20080914_234909.661_to_20080914_234914.179_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12586, Radius problem: 0
+No valid observations in file
+0 total observations. ( 58 of 80 files processed ) 
+Processing cfrad.20080914_234911.929_to_20080914_234916.465_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12531, Radius problem: 0
+No valid observations in file
+0 total observations. ( 59 of 80 files processed ) 
+Processing cfrad.20080914_234914.197_to_20080914_234918.733_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12650, Radius problem: 0
+No valid observations in file
+0 total observations. ( 60 of 80 files processed ) 
+Processing cfrad.20080914_235139.781_to_20080914_235144.317_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 11759, Radius problem: 0
+Processed 884 observations from 12643 entries (1.16533523%)
+884 total observations. ( 61 of 80 files processed ) 
+Processing cfrad.20080914_235223.071_to_20080914_235227.607_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12396, Radius problem: 0
+Processed 156 observations from 12552 entries (0.207138305%)
+1040 total observations. ( 62 of 80 files processed ) 
+Processing cfrad.20080914_235232.179_to_20080914_235236.697_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Error reading cfrad file
+Processing cfrad.20080914_235304.039_to_20080914_235308.575_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12544, Radius problem: 0
+No valid observations in file
+1040 total observations. ( 64 of 80 files processed ) 
+Processing cfrad.20080914_235313.147_to_20080914_235317.683_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12554, Radius problem: 0
+No valid observations in file
+1040 total observations. ( 65 of 80 files processed ) 
+Processing cfrad.20080914_235315.397_to_20080914_235319.969_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 11381, Radius problem: 0
+Processed 1345 observations from 12726 entries (1.76148567%)
+2385 total observations. ( 66 of 80 files processed ) 
+Processing cfrad.20080914_235329.113_to_20080914_235333.649_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 11344, Radius problem: 0
+Processed 1300 observations from 12644 entries (1.71359274%)
+3685 total observations. ( 67 of 80 files processed ) 
+Processing cfrad.20080914_235455.639_to_20080914_235500.175_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12636, Radius problem: 0
+No valid observations in file
+3685 total observations. ( 68 of 80 files processed ) 
+Processing cfrad.20080914_235500.193_to_20080914_235504.711_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12597, Radius problem: 0
+No valid observations in file
+3685 total observations. ( 69 of 80 files processed ) 
+Processing cfrad.20080914_235502.461_to_20080914_235506.997_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12538, Radius problem: 0
+No valid observations in file
+3685 total observations. ( 70 of 80 files processed ) 
+Processing cfrad.20080914_235504.729_to_20080914_235509.265_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12640, Radius problem: 0
+No valid observations in file
+3685 total observations. ( 71 of 80 files processed ) 
+Processing cfrad.20080914_235507.015_to_20080914_235511.551_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12539, Radius problem: 0
+No valid observations in file
+3685 total observations. ( 72 of 80 files processed ) 
+Processing cfrad.20080914_235509.283_to_20080914_235513.819_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12658, Radius problem: 0
+No valid observations in file
+3685 total observations. ( 73 of 80 files processed ) 
+Processing cfrad.20080914_235513.837_to_20080914_235518.373_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12642, Radius problem: 0
+No valid observations in file
+3685 total observations. ( 74 of 80 files processed ) 
+Processing cfrad.20080914_235518.391_to_20080914_235522.909_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12589, Radius problem: 0
+No valid observations in file
+3685 total observations. ( 75 of 80 files processed ) 
+Processing cfrad.20080914_235522.927_to_20080914_235527.463_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12635, Radius problem: 0
+No valid observations in file
+3685 total observations. ( 76 of 80 files processed ) 
+Processing cfrad.20080914_235529.767_to_20080914_235534.285_TF-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12500, Radius problem: 0
+No valid observations in file
+3685 total observations. ( 77 of 80 files processed ) 
+Processing cfrad.20080914_235536.571_to_20080914_235541.107_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12632, Radius problem: 0
+No valid observations in file
+3685 total observations. ( 78 of 80 files processed ) 
+Processing cfrad.20080914_235545.679_to_20080914_235550.215_TA-ELDR_AIR.nc of type cfrad ( code : 22 ) 
+Observation problem: 0, Time problem: 0, Coordinate problem: 0, Domain problem: 12625, Radius problem: 0
+No valid observations in file
+3685 total observations. ( 79 of 80 files processed ) 
+Processing samurai_Observations.in of type in ( code : 0 ) 
+Unknown data type, skipping...
+bpd6 - creating ob and setting time to 23
+45134 total observations including pseudo-obs for W and mass continuity
+Finished preprocessing 77 files.
+Number of New Observations: 45134
+runTime: loadMetObs: 113.484116
+DEBUG: Making XYZ costfunction
+stof conversion...
+done with stof conversion...
+kRankMax: 39
+runTime: initObCost3D: 2.263567
+runTime: gridDependentInit: 115.772642
+Outer VarDriver3D Loop Iteration: 1
+Initializing state vector...
+4th Order Recursive Filter coefficients computed for lengthscale 2 Delta X
+4th Order Recursive Filter coefficients computed for lengthscale 2 Delta X
+4th Order Recursive Filter coefficients computed for lengthscale 2 Delta X
+i Spline cutoff set to 2
+j Spline cutoff set to 2
+k Spline cutoff set to 2
+Before linearlization of kGammaL array
+Mass continuity weight set to 1
+Initializing background...
+Before call to SAtransform point #2
+Before call to SAtransform point #2.1
+Variable 0 RMS = 0	 BG Error = 6.90391333e-310 ( Infinite! %)
+Variable 1 RMS = 0	 BG Error = 7.7485972e-304 ( Infinite! %)
+Variable 2 RMS = 0	 BG Error = 5.43230922e-312 ( Infinite! %)
+Variable 3 RMS = 0	 BG Error = 5.43230922e-312 ( Infinite! %)
+Variable 4 RMS = 0	 BG Error = 1.13208889e-172 ( Infinite! %)
+Variable 5 RMS = 0	 BG Error = 5.61531121e+73 ( Infinite! %)
+Variable 6 RMS = 0	 BG Error = 1.81816158e-321 ( Infinite! %)
+Build H transform matrix...
+Finished with nested H loop ...
+Non-zero entries in sparse H matrix: 2913945 = 0.0193053991 %
+size of {H,JH}Build matrix (Mbytes) 139.373792 
+Allocating H 
+Allocating JH 
+Allocating mVal 
+Allocating mTmp 
+Allocating mIncr 
+cindex==8 m: 3720 hi: 708168 
+cindex==8 m: 4975 hi: 775005 
+Allocating I2H 
+Memory usage for [H]             (Mbytes): 22.231636
+Memory usage for [obsVector]     (Mbytes): 12.0520782
+Memory usage for [obsData]       (Mbytes): 0.344345093
+Memory usage for [HCq]           (Mbytes): 0.708839417
+Memory usage for [mPtr,mVal,I2H] (Mbytes): 47.01474
+Memory usage for [IH,JH]         (Mbytes): 22.5759888
+Memory usage for [state]         (Mbytes): 2.55146027
+Before delete(Hlength) 
+Before delete(mIncr) 
+Before delete(mTmp) 
+Initializing innovation vector...
+Innovation RMS : 1.11738249
+Beginning analysis...
+runTime: Cost3D Init: 0.435769
+Beginning minimize()
+	Solver conv. tolerance = 0.0001
+SOLVER: Samurai Truncated Newton 
+	Newton Iteration: 0	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -3.58290785e+13
+		CG iteration 1:  r_norm = 1012412.71      rel_resid = 2.63458731
+Search direction is not a descent direction! dginit = 608617365
+	Newton Iteration: 1	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -6.93383158e+16
+		CG iteration 1:  r_norm = 1417823.32      rel_resid = 3.6895816
+Search direction is not a descent direction! dginit = 314489.891
+	Newton Iteration: 2	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.78571792e+20
+		CG iteration 1:  r_norm = 1497500.79      rel_resid = 3.89692516
+Search direction is not a descent direction! dginit = 122.114468
+	Newton Iteration: 3	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -4.72512379e+23
+		CG iteration 1:  r_norm = 1567458.93      rel_resid = 4.07897625
+Search direction is not a descent direction! dginit = 0.0461494774
+	Newton Iteration: 4	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.26766515e+27
+		CG iteration 1:  r_norm = 1640801.18      rel_resid = 4.26983374
+Search direction is not a descent direction! dginit = 1.72018608e-05
+	Newton Iteration: 5	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -3.43933837e+30
+		CG iteration 1:  r_norm = 1716914.84      rel_resid = 4.46790326
+Search direction is not a descent direction! dginit = 6.34023089e-09
+	Newton Iteration: 6	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -9.42099296e+33
+		CG iteration 1:  r_norm = 1795339.69      rel_resid = 4.67198713
+Search direction is not a descent direction! dginit = 2.31463917e-12
+	Newton Iteration: 7	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -2.60197603e+37
+		CG iteration 1:  r_norm = 1875972.08      rel_resid = 4.88181565
+Search direction is not a descent direction! dginit = 8.38063039e-16
+	Newton Iteration: 8	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -7.23842859e+40
+		CG iteration 1:  r_norm = 1958853.2      rel_resid = 5.09749601
+Search direction is not a descent direction! dginit = 3.01255985e-19
+	Newton Iteration: 9	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -2.02655245e+44
+		CG iteration 1:  r_norm = 2044033.64      rel_resid = 5.31915989
+Search direction is not a descent direction! dginit = 1.07602442e-22
+	Newton Iteration: 10	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -5.70624448e+47
+		CG iteration 1:  r_norm = 2131501.41      rel_resid = 5.54677602
+Search direction is not a descent direction! dginit = 3.82146251e-26
+	Newton Iteration: 11	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.6150319e+51
+		CG iteration 1:  r_norm = 2221150.96      rel_resid = 5.78006979
+Search direction is not a descent direction! dginit = 1.3502024e-29
+	Newton Iteration: 12	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -4.59251103e+54
+		CG iteration 1:  r_norm = 2312777.97      rel_resid = 6.01850945
+Search direction is not a descent direction! dginit = 4.74820838e-33
+	Newton Iteration: 13	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.31156448e+58
+		CG iteration 1:  r_norm = 2406089.09      rel_resid = 6.26133168
+Search direction is not a descent direction! dginit = 1.66260979e-36
+	Newton Iteration: 14	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -3.76059087e+61
+		CG iteration 1:  r_norm = 2500719.79      rel_resid = 6.50758781
+Search direction is not a descent direction! dginit = 5.79860988e-40
+	Newton Iteration: 15	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.08224464e+65
+		CG iteration 1:  r_norm = 2596255.25      rel_resid = 6.75619838
+Search direction is not a descent direction! dginit = 2.01490481e-43
+	Newton Iteration: 16	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -3.12527805e+68
+		CG iteration 1:  r_norm = 2692251.43      rel_resid = 7.0060079
+Search direction is not a descent direction! dginit = 6.97736298e-47
+	Newton Iteration: 17	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -9.05416662e+71
+		CG iteration 1:  r_norm = 2788254.41      rel_resid = 7.2558351
+Search direction is not a descent direction! dginit = 2.40841596e-50
+	Newton Iteration: 18	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -2.63097659e+75
+		CG iteration 1:  r_norm = 2883816.95      rel_resid = 7.50451614
+Search direction is not a descent direction! dginit = 8.28825291e-54
+	Newton Iteration: 19	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -7.6667924e+78
+		CG iteration 1:  r_norm = 2978511.98      rel_resid = 7.75093966
+Search direction is not a descent direction! dginit = 2.84424023e-57
+	Newton Iteration: 20	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -2.24008368e+82
+		CG iteration 1:  r_norm = 3071942.87      rel_resid = 7.99407356
+Search direction is not a descent direction! dginit = 9.73454676e-61
+	Newton Iteration: 21	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -6.56144074e+85
+		CG iteration 1:  r_norm = 3163750.83      rel_resid = 8.23298413
+Search direction is not a descent direction! dginit = 3.32338586e-64
+	Newton Iteration: 22	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.92643103e+89
+		CG iteration 1:  r_norm = 3253619.57      rel_resid = 8.46684826
+Search direction is not a descent direction! dginit = 1.1319481e-67
+	Newton Iteration: 23	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -5.668466e+92
+		CG iteration 1:  r_norm = 3341277.69      rel_resid = 8.69495976
+Search direction is not a descent direction! dginit = 3.84693131e-71
+	Newton Iteration: 24	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.67138799e+96
+		CG iteration 1:  r_norm = 3426499.32      rel_resid = 8.9167308
+Search direction is not a descent direction! dginit = 1.30467608e-74
+	Newton Iteration: 25	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -4.93779977e+99
+		CG iteration 1:  r_norm = 3509103.08      rel_resid = 9.13168941
+Search direction is not a descent direction! dginit = 4.41617732e-78
+	Newton Iteration: 26	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.46144255e+103
+		CG iteration 1:  r_norm = 3588950.08      rel_resid = 9.33947412
+Search direction is not a descent direction! dginit = 1.49210103e-81
+	Newton Iteration: 27	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -4.33283698e+106
+		CG iteration 1:  r_norm = 3665940.93      rel_resid = 9.53982633
+Search direction is not a descent direction! dginit = 5.03277632e-85
+	Newton Iteration: 28	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.28664301e+110
+		CG iteration 1:  r_norm = 3740012.36      rel_resid = 9.73258136
+Search direction is not a descent direction! dginit = 1.6948135e-88
+	Newton Iteration: 29	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -3.82643317e+113
+		CG iteration 1:  r_norm = 3811133.36      rel_resid = 9.91765852
+Search direction is not a descent direction! dginit = 5.69883189e-92
+	Newton Iteration: 30	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.13956257e+117
+		CG iteration 1:  r_norm = 3879301.3      rel_resid = 10.095051
+Search direction is not a descent direction! dginit = 1.91355876e-95
+	Newton Iteration: 31	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -3.39820934e+120
+		CG iteration 1:  r_norm = 3944538.04      rel_resid = 10.2648156
+Search direction is not a descent direction! dginit = 6.41696763e-99
+	Newton Iteration: 32	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.01459377e+124
+		CG iteration 1:  r_norm = 4006886.11      rel_resid = 10.4270632
+Search direction is not a descent direction! dginit = 2.14925421e-102
+	Newton Iteration: 33	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -3.03269511e+127
+		CG iteration 1:  r_norm = 4066405.21      rel_resid = 10.5819489
+Search direction is not a descent direction! dginit = 7.1903698e-106
+	Newton Iteration: 34	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -9.07457549e+130
+		CG iteration 1:  r_norm = 4123168.86      rel_resid = 10.7296641
+Search direction is not a descent direction! dginit = 2.40299939e-109
+	Newton Iteration: 35	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -2.71802506e+134
+		CG iteration 1:  r_norm = 4177261.46      rel_resid = 10.8704285
+Search direction is not a descent direction! dginit = 8.02281027e-113
+	Newton Iteration: 36	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -8.14855703e+137
+		CG iteration 1:  r_norm = 4228775.59      rel_resid = 11.004483
+Search direction is not a descent direction! dginit = 2.67608109e-116
+	Newton Iteration: 37	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -2.4450093e+141
+		CG iteration 1:  r_norm = 4277809.68      rel_resid = 11.1320837
+Search direction is not a descent direction! dginit = 8.91865702e-120
+	Newton Iteration: 38	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -7.34221547e+144
+		CG iteration 1:  r_norm = 4324465.99      rel_resid = 11.2534968
+Search direction is not a descent direction! dginit = 2.9699754e-123
+	Newton Iteration: 39	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -2.20646234e+148
+		CG iteration 1:  r_norm = 4368848.83      rel_resid = 11.3689936
+Search direction is not a descent direction! dginit = 9.88287854e-127
+	Newton Iteration: 40	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -6.63538793e+151
+		CG iteration 1:  r_norm = 4411063.16      rel_resid = 11.4788474
+Search direction is not a descent direction! dginit = 3.28634883e-130
+	Newton Iteration: 41	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.99671322e+155
+		CG iteration 1:  r_norm = 4451213.32      rel_resid = 11.5833296
+Search direction is not a descent direction! dginit = 1.09210472e-133
+	Newton Iteration: 42	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -6.01208732e+158
+		CG iteration 1:  r_norm = 4489402.12      rel_resid = 11.6827077
+Search direction is not a descent direction! dginit = 3.62705965e-137
+	Newton Iteration: 43	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.81124457e+162
+		CG iteration 1:  r_norm = 4525729.98      rel_resid = 11.7772432
+Search direction is not a descent direction! dginit = 1.20393456e-140
+	Newton Iteration: 44	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -5.4595199e+165
+		CG iteration 1:  r_norm = 4560294.39      rel_resid = 11.8671897
+Search direction is not a descent direction! dginit = 3.99416061e-144
+	Newton Iteration: 45	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.6464247e+169
+		CG iteration 1:  r_norm = 4593189.43      rel_resid = 11.952792
+Search direction is not a descent direction! dginit = 1.32445774e-147
+	Newton Iteration: 46	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -4.96735281e+172
+		CG iteration 1:  r_norm = 4624505.41      rel_resid = 12.0342851
+Search direction is not a descent direction! dginit = 4.38990348e-151
+	Newton Iteration: 47	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.499307e+176
+		CG iteration 1:  r_norm = 4654328.74      rel_resid = 12.111894
+Search direction is not a descent direction! dginit = 1.45441856e-154
+	Newton Iteration: 48	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -4.52716425e+179
+		CG iteration 1:  r_norm = 4682741.71      rel_resid = 12.1858327
+Search direction is not a descent direction! dginit = 4.81674579e-158
+	Newton Iteration: 49	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.36747899e+183
+		CG iteration 1:  r_norm = 4709822.5      rel_resid = 12.2563046
+Search direction is not a descent direction! dginit = 1.59462774e-161
+	Newton Iteration: 50	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -4.13202801e+186
+		CG iteration 1:  r_norm = 4735645.16      rel_resid = 12.3235025
+Search direction is not a descent direction! dginit = 5.27736e-165
+	Newton Iteration: 51	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.24894777e+190
+		CG iteration 1:  r_norm = 4760279.67      rel_resid = 12.3876086
+Search direction is not a descent direction! dginit = 1.74596568e-168
+	Newton Iteration: 52	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -3.77619741e+193
+		CG iteration 1:  r_norm = 4783792.06      rel_resid = 12.4487945
+Search direction is not a descent direction! dginit = 5.77464496e-172
+	Newton Iteration: 53	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.14205269e+197
+		CG iteration 1:  r_norm = 4806244.47      rel_resid = 12.5072221
+Search direction is not a descent direction! dginit = 1.90938646e-175
+	Newton Iteration: 54	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -3.45486348e+200
+		CG iteration 1:  r_norm = 4827695.39      rel_resid = 12.5630436
+Search direction is not a descent direction! dginit = 6.31173981e-179
+	Newton Iteration: 55	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.04539828e+204
+		CG iteration 1:  r_norm = 4848199.72      rel_resid = 12.6164017
+Search direction is not a descent direction! dginit = 2.08592265e-182
+	Newton Iteration: 56	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -3.16396867e+207
+		CG iteration 1:  r_norm = 4867809      rel_resid = 12.6674306
+Search direction is not a descent direction! dginit = 6.89204022e-186
+	Newton Iteration: 57	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -9.57802428e+210
+		CG iteration 1:  r_norm = 4886571.56      rel_resid = 12.7162562
+Search direction is not a descent direction! dginit = 2.27669076e-189
+	Newton Iteration: 58	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -2.90006254e+214
+		CG iteration 1:  r_norm = 4904532.7      rel_resid = 12.7629962
+Search direction is not a descent direction! dginit = 7.51921692e-193
+	Newton Iteration: 59	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -8.78256126e+217
+		CG iteration 1:  r_norm = 4921734.87      rel_resid = 12.8077612
+Search direction is not a descent direction! dginit = 2.4828975e-196
+	Newton Iteration: 60	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -2.6601891e+221
+		CG iteration 1:  r_norm = 4938217.82      rel_resid = 12.8506545
+Search direction is not a descent direction! dginit = 8.19723656e-200
+	Newton Iteration: 61	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -8.05891895e+224
+		CG iteration 1:  r_norm = 4954018.79      rel_resid = 12.8917732
+Search direction is not a descent direction! dginit = 2.70584671e-203
+	Newton Iteration: 62	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -2.44179839e+228
+		CG iteration 1:  r_norm = 4969172.67      rel_resid = 12.9312079
+Search direction is not a descent direction! dginit = 8.93038486e-207
+	Newton Iteration: 63	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -7.39958964e+231
+		CG iteration 1:  r_norm = 4983712.13      rel_resid = 12.9690437
+Search direction is not a descent direction! dginit = 2.94694712e-210
+	Newton Iteration: 64	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -2.24267655e+235
+		CG iteration 1:  r_norm = 4997667.8      rel_resid = 13.0053604
+Search direction is not a descent direction! dginit = 9.7232922e-214
+	Newton Iteration: 65	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -6.79803551e+238
+		CG iteration 1:  r_norm = 5011068.39      rel_resid = 13.0402325
+Search direction is not a descent direction! dginit = 3.20772072e-217
+	Newton Iteration: 66	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -2.06089013e+242
+		CG iteration 1:  r_norm = 5023940.81      rel_resid = 13.0737302
+Search direction is not a descent direction! dginit = 1.05809616e-220
+	Newton Iteration: 67	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -6.24853107e+245
+		CG iteration 1:  r_norm = 5036310.33      rel_resid = 13.1059193
+Search direction is not a descent direction! dginit = 3.48981211e-224
+	Newton Iteration: 68	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.89474148e+249
+		CG iteration 1:  r_norm = 5048200.67      rel_resid = 13.1368613
+Search direction is not a descent direction! dginit = 1.15087992e-227
+	Newton Iteration: 69	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -5.74603635e+252
+		CG iteration 1:  r_norm = 5059634.11      rel_resid = 13.1666144
+Search direction is not a descent direction! dginit = 3.7949985e-231
+	Newton Iteration: 70	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.74273261e+256
+		CG iteration 1:  r_norm = 5070631.6      rel_resid = 13.195233
+Search direction is not a descent direction! dginit = 1.25126478e-234
+	Newton Iteration: 71	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -5.2860941e+259
+		CG iteration 1:  r_norm = 5081212.85      rel_resid = 13.2227685
+Search direction is not a descent direction! dginit = 4.12520076e-238
+	Newton Iteration: 72	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.60353585e+263
+		CG iteration 1:  r_norm = 5091396.42      rel_resid = 13.249269
+Search direction is not a descent direction! dginit = 1.35988225e-241
+	Newton Iteration: 73	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -4.86474572e+266
+		CG iteration 1:  r_norm = 5101199.79      rel_resid = 13.2747802
+Search direction is not a descent direction! dginit = 4.4824952e-245
+	Newton Iteration: 74	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.47596978e+270
+		CG iteration 1:  r_norm = 5110639.47      rel_resid = 13.2993449
+Search direction is not a descent direction! dginit = 1.47741503e-248
+	Newton Iteration: 75	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -4.4784622e+273
+		CG iteration 1:  r_norm = 5119731.03      rel_resid = 13.3230038
+Search direction is not a descent direction! dginit = 4.86912659e-252
+	Newton Iteration: 76	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.35897937e+277
+		CG iteration 1:  r_norm = 5128489.18      rel_resid = 13.345795
+Search direction is not a descent direction! dginit = 1.60460121e-255
+	Newton Iteration: 77	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -4.12408675e+280
+		CG iteration 1:  r_norm = 5136927.84      rel_resid = 13.3677548
+Search direction is not a descent direction! dginit = 5.28752199e-259
+	Newton Iteration: 78	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.25161934e+284
+		CG iteration 1:  r_norm = 5145060.19      rel_resid = 13.3889175
+Search direction is not a descent direction! dginit = 1.74223892e-262
+	Newton Iteration: 79	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -3.79878694e+287
+		CG iteration 1:  r_norm = 5152898.71      rel_resid = 13.4093156
+Search direction is not a descent direction! dginit = 5.74030598e-266
+	Newton Iteration: 80	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.15304041e+291
+		CG iteration 1:  r_norm = 5160455.23      rel_resid = 13.4289798
+Search direction is not a descent direction! dginit = 1.89119125e-269
+	Newton Iteration: 81	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -3.50001447e+294
+		CG iteration 1:  r_norm = 5167740.99      rel_resid = 13.4479394
+Search direction is not a descent direction! dginit = 6.23031692e-273
+	Newton Iteration: 82	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -1.06247749e+298
+		CG iteration 1:  r_norm = 5174766.68      rel_resid = 13.4662223
+Search direction is not a descent direction! dginit = 2.05239166e-276
+	Newton Iteration: 83	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -3.22547105e+301
+		CG iteration 1:  r_norm = 5181542.43      rel_resid = 13.4838547
+Search direction is not a descent direction! dginit = 6.76062473e-280
+	Newton Iteration: 84	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -9.79239806e+304
+		CG iteration 1:  r_norm = 5188077.91      rel_resid = 13.5008619
+Search direction is not a descent direction! dginit = 2.22684977e-283
+	Newton Iteration: 85	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+Negative curvature in CG iteration... pAp = -inf
+		CG iteration 1:  r_norm = 384277.534      rel_resid = 1
+Search direction is not a descent direction! dginit = 0
+	Newton Iteration: 86	J = 28554370.9	Residual = 384277.534
+		CG iteration 0:   r_norm = 384277.534     rel_resid = 1.0
+		CG iteration 1:  r_norm = nan      rel_resid = nan
+		CG iteration 2:  r_norm = -nan      rel_resid = -nan
+		CG iteration 3:  r_norm = nan      rel_resid = nan
+		CG iteration 4:  r_norm = -nan      rel_resid = -nan
+		CG iteration 5:  r_norm = nan      rel_resid = nan
+		CG iteration 6:  r_norm = -nan      rel_resid = -nan
+		CG iteration 7:  r_norm = nan      rel_resid = nan
+		CG iteration 8:  r_norm = -nan      rel_resid = -nan
+		CG iteration 9:  r_norm = nan      rel_resid = nan
+		CG iteration 10:  r_norm = -nan      rel_resid = -nan
+		CG iteration 11:  r_norm = nan      rel_resid = nan
+		CG iteration 12:  r_norm = -nan      rel_resid = -nan
+		CG iteration 13:  r_norm = nan      rel_resid = nan
+		CG iteration 14:  r_norm = -nan      rel_resid = -nan
+		CG iteration 15:  r_norm = nan      rel_resid = nan
+		CG iteration 16:  r_norm = -nan      rel_resid = -nan
+		CG iteration 17:  r_norm = nan      rel_resid = nan
+		CG iteration 18:  r_norm = -nan      rel_resid = -nan
+		CG iteration 19:  r_norm = nan      rel_resid = nan
+		CG iteration 20:  r_norm = -nan      rel_resid = -nan
+		CG iteration 21:  r_norm = nan      rel_resid = nan
+		CG iteration 22:  r_norm = -nan      rel_resid = -nan
+		CG iteration 23:  r_norm = nan      rel_resid = nan
+		CG iteration 24:  r_norm = -nan      rel_resid = -nan
+		CG iteration 25:  r_norm = nan      rel_resid = nan
+		CG iteration 26:  r_norm = -nan      rel_resid = -nan
+		CG iteration 27:  r_norm = nan      rel_resid = nan
+		CG iteration 28:  r_norm = -nan      rel_resid = -nan
+		CG iteration 29:  r_norm = nan      rel_resid = nan
+		CG iteration 30:  r_norm = -nan      rel_resid = -nan
+		CG iteration 31:  r_norm = nan      rel_resid = nan
+		CG iteration 32:  r_norm = -nan      rel_resid = -nan
+		CG iteration 33:  r_norm = nan      rel_resid = nan
+		CG iteration 34:  r_norm = -nan      rel_resid = -nan
+		CG iteration 35:  r_norm = nan      rel_resid = nan
+		CG iteration 36:  r_norm = -nan      rel_resid = -nan
+		CG iteration 37:  r_norm = nan      rel_resid = nan
